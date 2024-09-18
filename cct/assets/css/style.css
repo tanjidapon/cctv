@@ -1,0 +1,293 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+     display: flex;
+}
+ul li {
+    list-style: none;
+   
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/*
+==========================================
+    HEADER STYLE;
+==========================================
+
+
+/*Header-Bottom*/
+.header-bottom {
+    background: url(../img/hero/hero.jpg);
+    min-height: 720px;
+    width: auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header-bottom::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.d-table {
+    height: 100%;
+    width: 100%;
+    text-align:start;
+    position: relative;
+    z-index: 2;
+}
+
+.d-table-cell {
+    vertical-align: center;
+}
+
+.header-content {
+    margin-top:10%;
+}
+
+.header-content h2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.header-content p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    max-width: 970px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    color: #fff;
+
+}
+
+.header-content a {
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    background: #6e1831;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header-content a:hover {
+    color: #6e1628;
+    background: #fff;
+    transition: all 0.6s ease 0s;
+    border-radius: 10px;
+}
+
+/*Header-Bottom-End*/
+
+/*
+==========================================
+    HEADER STYLE END
+==========================================
+*/
+
+/*
+==========================================
+    Card STYLE Start
+==========================================
+*/
+
+.text-part {
+	margin-left: 18%;
+	margin-top: 10%;
+	color: #010645;
+}
+
+/*team part start*/
+.card-part{
+    text-align: center;
+   
+    
+}
+.card{
+    margin: 40px 0px 20px 20px;
+    box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.51); 
+box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.51);
+}
+.card-body h5 {
+	background: #010645;
+	color: #fff;
+	padding: 20px;
+}
+.card-part img {
+	width: 100%;
+	height: auto;
+}
+button {
+	padding: 10px;
+	color: #fff;
+	background: #010645;
+	border: none;
+	margin-left: 40px;
+}
+/*team part end*/
+/*
+==========================================
+    CARD STYLE END
+==========================================
+*/
+/*command part*/
+.comment-part{
+    margin-top: 60px;
+}
+.c-part {
+	background: #010645;
+	width: 600px;
+	height: 513px;
+	position: relative;
+}
+.first-img {
+	top: -5%;
+	position: relative;
+	left: 20px;
+}
+.second-part {
+	position: relative;
+	left: 39%;
+	top: -59%;
+}
+.card-s {
+	margin-top: 16%;
+	position: relative;
+	background: #fff;
+	height: 77%;
+	width: 95%;
+	box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.51);
+	box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.51);
+}
+/*command end*/
+/*card-part start*/
+.textsecond-part {
+	margin-left: 10%;
+	margin-top: 5%;
+	color: #010645;
+}
+
+.cardsecond-part {
+	text-align: center;
+	margin-bottom: 5%;
+}
+.cardsecond {
+	margin: 40px 0px 25px 25px;
+	background: #010645;
+	box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.51);
+	box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.51);
+	height: 85%;
+	width: 80%;
+}
+.cardsecond-body h5 {
+	color: #fff;
+
+}
+.cardsecond-part img {
+	margin: 30px;
+}
+/*card-part end*/
+.footer-basic {
+	padding: 40px 0;
+	background-color: #010645;
+	color: #fff;
+}
+
+.footer-basic ul {
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+/* Credit to https://epicbootstrap.com/snippets/footer-basic */
